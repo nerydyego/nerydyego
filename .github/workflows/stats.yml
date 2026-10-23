@@ -30,7 +30,7 @@ jobs:
           fail_on_error: true
 
       - name: Publish stats.svg
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5.0.0
         with:
           target_branch: stats-output
           build_dir: dist
